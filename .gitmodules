@@ -1,6 +1,9 @@
 [submodule "thirdparty/ctemplate"]
 	path = thirdparty/ctemplate
-	url = https://github.com/dinhviethoa/ctemplate
+	url = https://github.com/greenius/ctemplate.git
+	branch = xcode12
+	#Upstream url used by original mailcore2:
+	# url = https://github.com/dinhviethoa/ctemplate
         # Tag 2.2.3
 [submodule "thirdparty/libetpan"]
 	path = thirdparty/libetpan
