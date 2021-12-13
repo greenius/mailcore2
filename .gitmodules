@@ -7,6 +7,6 @@
         # Tag 2.2.3
 [submodule "thirdparty/libetpan"]
 	path = thirdparty/libetpan
-	url = https://github.com/dinhviethoa/libetpan.git
+	url = https://github.com/greenius/libetpan
         # Tag 1.9.4
 
