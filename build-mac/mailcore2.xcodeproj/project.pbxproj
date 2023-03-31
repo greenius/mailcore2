@@ -3574,19 +3574,6 @@
 			shellPath = /bin/sh;
 			shellScript = "rsync -a --verbose \"$BUILT_PRODUCTS_DIR/include/MailCore/\" \"$BUILT_PRODUCTS_DIR/$PUBLIC_HEADERS_FOLDER_PATH\"\n";
 		};
-		C64EA780169E867600778456 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# \"$SRCROOT/../scripts/get-mac.sh\"\n";
-		};
 		C6BA2B0A1705F4E6003F0E9E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4705,8 +4692,8 @@
 				DEAD_CODE_STRIPPING = NO;
 				ENABLE_BITCODE = YES;
 				EXECUTABLE_PREFIX = lib;
-				ONLY_ACTIVE_ARCH = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "MailCore-ios";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -4721,8 +4708,8 @@
 				DEAD_CODE_STRIPPING = NO;
 				ENABLE_BITCODE = YES;
 				EXECUTABLE_PREFIX = lib;
-				ONLY_ACTIVE_ARCH = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "MailCore-ios";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -4745,6 +4732,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = (
 					"-lctemplate",
 					"-letpan",
@@ -4778,6 +4766,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "framework-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = (
 					"-lctemplate",
 					"-letpan",
